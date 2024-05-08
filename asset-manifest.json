@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maia6892/Calculator/static/css/main.743e4582.css",
+    "main.js": "/maia6892/Calculator/static/js/main.09832ab8.js",
+    "index.html": "/maia6892/Calculator/index.html",
+    "main.743e4582.css.map": "/maia6892/Calculator/static/css/main.743e4582.css.map",
+    "main.09832ab8.js.map": "/maia6892/Calculator/static/js/main.09832ab8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743e4582.css",
+    "static/js/main.09832ab8.js"
+  ]
+}
