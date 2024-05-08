@@ -1,0 +1,61 @@
+.btnBar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    gap: 5px;
+}
+
+#clear,
+#zero {
+    grid-column: 1 / span 2;
+}
+
+#equals {
+    grid-column: 4;
+    grid-row: 4 / span 2;
+    background-color: darkorange;
+}
+
+#clear {
+    background-color: darkred;
+}
+
+#add,
+#divide,
+#subtract,
+#multiply {
+    background-color: rgb(91, 91, 91);
+}
+
+button {
+    color: #fff;
+    font-size: 21px;
+    background-color: rgb(48, 47, 47);
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.output {
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    background-color: #000;
+    text-align: right;
+}
+
+.operation {
+    height: 30px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+#display {
+    height: 60px;
+    font-size: 36px;
+    padding-right: 10px;
+}
